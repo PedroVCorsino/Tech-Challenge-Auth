@@ -4,8 +4,8 @@ from botocore.exceptions import ClientError
 
 cognito_client = boto3.client('cognito-idp')
 
-USER_POOL_ID = 'us-east-1_wY8iyWcKy'
-CLIENT_ID = '2ruj48agg54hqlhr34p37ir8p3'
+USER_POOL_ID = 'us-east-1_acioiSPS0'
+CLIENT_ID = '60kovcmoralh3svpetj8gs4f6h'
 
 def valida_CPF(cpf: str) -> bool:
     return len(cpf) == 11 and cpf.isdigit() #vou usar apenas um validação simplesinha pra contar os caracters
